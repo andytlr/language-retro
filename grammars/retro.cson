@@ -5,9 +5,27 @@
 ]
 'patterns': [
   {
-    'match': '^\\s*([\\*\\+-])[ \\t]+'
+    'match': '^\\s*([\\+])[ \\t]+'
     'captures':
       '1':
         'name': 'variable.list.positive.retro'
+  }
+  {
+    'match': '^\\s*([\\-])[ \\t]+'
+    'captures':
+      '1':
+        'name': 'variable.list.negative.retro'
+  }
+  {
+    'match': '^\\s*([\\?])[ \\t]+'
+    'captures':
+      '1':
+        'name': 'variable.list.question.retro'
+  }
+  {
+    'match': '^\\s*([\\∆])[ \\t]+'
+    'captures':
+      '1':
+        'name': 'variable.list.different.retro'
   }
 ]
