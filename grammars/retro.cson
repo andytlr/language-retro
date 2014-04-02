@@ -1,0 +1,13 @@
+'name': 'Retro'
+'scopeName': 'source.retro'
+'fileTypes': [
+  'retro'
+]
+'patterns': [
+  {
+    'match': '^\\s*([\\*\\+-])[ \\t]+'
+    'captures':
+      '1':
+        'name': 'variable.list.positive.retro'
+  }
+]
