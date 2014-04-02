@@ -13,4 +13,4 @@
     'body': '∆ $1'
   'template':
     'prefix': 'template'
-    'body': '+ \n\n- \n\n? \n\n∆ $1'
+    'body': '+ $1\n\n- \n\n? \n\n∆ '
